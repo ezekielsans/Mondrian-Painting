@@ -1,0 +1,98 @@
+/* Line Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E */
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: gray;
+    flex-direction: column;
+}
+
+
+.container {
+    height: 700px;
+    width: 700px;
+    gap: 30px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: .5fr 1.5fr .5fr .5fr;
+    grid-template-columns: 1fr .5fr 1.5fr 1fr;
+    padding: 1rem;
+}
+
+
+.yellow {
+    background-color: #F9D01E;
+    grid-area: 1/1/2/2;
+    grid-column: span 2;
+
+}
+
+.red {
+    background-color: #E72F24;
+    grid-area: 1/2/1/2;
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+
+.white {
+    grid-area: 2/1/2/2;
+    grid-row: span 1;
+    grid-column: span 2;
+    background-color: #F0F1EC;
+}
+
+/* code above is already fixed dont touch */
+
+
+.white2 {
+    grid-area: 3/1;
+    grid-row: span 2;
+    background-color: #F0F1EC;
+
+}
+
+.blue {
+    background-color: #004592;
+    grid-area: 3/2/3/3;
+    grid-row: span 2;
+
+
+}
+
+
+.white3 {
+    grid-area: 3/4/3/2;
+    background-color: #F0F1EC;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+
+.white4 {
+    background-color: #F0F1EC;
+    grid-row: span 2;
+    grid-area: 3/4/4/4
+}
+
+
+.yellow2 {
+    grid-area: 3/4/4/4;
+    grid-row: span 1;
+    background-color: #F9D01E;
+
+
+
+
+
+}
